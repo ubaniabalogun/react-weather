@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-title {
+  justify-content: space-between;
+  background: rgba(252,90,44,0.89);
+  color: #fff;
+  padding: 5px;
+}
+
+.wrapper-background {
+  height: 100%;
+  width: 100%;
+}
+
+
+.wrapper-input {
+  max-width: 300px;
+  align-self: right;
+}
+
+.wrapper-horizontal {
+  flex-direction: row;
+}
+
+.wrapper-vertical {
+  flex-direction: column;
+}
